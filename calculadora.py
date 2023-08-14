@@ -1,6 +1,7 @@
 from colorama import Fore, Back, Style, init
 import os
 import sys
+
 #llamado a la funcion de colorama
 init()
 
@@ -63,7 +64,7 @@ def sumar():
 
         print()
         numero2 = float(input(Fore.BLUE + "Mas: "))
-        resultado = numero1 + numero2
+        resultado = round(numero1 + numero2, 2)
         limpiar_pantalla()
 
         print (Fore.BLUE + str(numero1), "+", str(numero2), "=",str(resultado))
@@ -113,7 +114,7 @@ def restar():
 
         print()
         numero2 = float(input(Fore.BLUE + "Menos: "))
-        resultado = numero1 - numero2
+        resultado = round(numero1 - numero2, 2)
         limpiar_pantalla()
 
         print (Fore.BLUE + str(numero1), "-", str(numero2), "=", str(resultado))
