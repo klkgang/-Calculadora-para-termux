@@ -1,0 +1,13 @@
+## Operaciones matemáticas soportadas
+
+- Suma: `x + y`
+- Resta: `x - y`
+- Multiplicación: `x * y`
+- División: `x / y` para división flotante, `x // y` para división entera
+- Exponenciación: `x ** y`
+- Módulo: `x % y` (devuelve el resto de la división de x entre y)
+- Paréntesis para cambiar la precedencia de las operaciones: `(x + y) * z`
+- Comparaciones: `x < y`, `x <= y`, `x > y`, `x >= y`, `x == y`, `x != y`
+- Operaciones booleanas: `x and y`, `x or y`, `not x`
+- Operaciones con números complejos: `x + yj`
+- Operaciones bit a bit: `x & y`, `x | y`, `x ^ y`, `x >> y`, `x << y`, `~x`
