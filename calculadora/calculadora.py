@@ -46,7 +46,7 @@ def  calculadora():
                 sys.exit()
 
 
-            elif operacion == "help":
+            elif operacion == 'help':
                 with open('help.txt', 'r') as archivo:
                     limpiar_pantalla()
                     print(archivo.read())
